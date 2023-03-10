@@ -1,0 +1,72 @@
+.likeContainer_class {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+}
+
+.boxMain_class {
+    width: 400px;
+    height: fit-content;
+    border-style: solid;
+    padding: 10px;
+}
+
+button {
+    background-color:orange;
+    box-shadow: 2px 2px black;
+}
+
+.mainFrame_class {
+    width: 850px;
+    height: fit-content;
+    border-style: solid;
+    padding: 200px;
+    padding-top: 0px;
+    
+}
+
+.titleFrame_class {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+}
+
+.headerFrame_class {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.leftFrame_class {
+    width: 35%;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-right: 40px;
+    
+}
+
+.leftFrame_class>img{
+    border-radius: 55px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.leftFrame_class, .rightFrame_class {
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.boxMain_class {
+    margin-bottom: 20px;
+}
